@@ -52,15 +52,31 @@ Ek mazedaar web app jo single logon ke liye banaya gaya hai! Valentine's Day pe 
    npm run build
    ```
 
-## 🚀 Deployment
-
-This app is deployed on Vercel. For deploying your own version:
+## 🚀 Deployment on Vercel
 
 1. Fork this repository
 2. Create a new project on Vercel
 3. Connect your GitHub repo
-4. Add your environment variables
-5. Deploy!
+4. Add Environment Variables in Vercel:
+   - Go to Project Settings
+   - Click on "Environment Variables"
+   - Add new variable:
+     - NAME: `VITE_GEMINI_API_KEY`
+     - VALUE: Your Gemini API Key
+5. Deploy again:
+   - Go to Deployments
+   - Find your latest deployment
+   - Click the three dots (...)
+   - Select "Redeploy"
+
+## 🔑 Environment Variables
+
+The following environment variables are required:
+
+- `VITE_GEMINI_API_KEY`: Your Google Gemini AI API key
+  - Get it from: https://makersuite.google.com/app/apikey
+  - Add to Vercel environment variables
+  - For local development, copy `.env.example` to `.env` and add your key
 
 ## 🎨 Customization
 

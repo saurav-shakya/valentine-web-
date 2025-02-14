@@ -1,7 +1,14 @@
 {
   "name": "valentine",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Valentine's Destruction 2025 - A savage web app for singles 💔",
+  "author": "Saurav <https://x.com/sauravv_x>",
+  "homepage": "https://github.com/saurav-shakya/valentine-web-",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurav-shakya/valentine-web-.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
