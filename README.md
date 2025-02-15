@@ -74,7 +74,7 @@ Ek mazedaar web app jo single logon ke liye banaya gaya hai! Valentine's Day pe 
 The following environment variables are required:
 
 - `VITE_GEMINI_API_KEY`: Your Google Gemini AI API key
-  - Get it from: https://makersuite.google.com/app/apikey
+  - Get it from: https://aistudio.google.com/app/apikey
   - Add to Vercel environment variables
   - For local development, copy `.env.example` to `.env` and add your key
 
@@ -88,12 +88,5 @@ Feel free to modify the:
 
 ## 👨‍💻 Creator
 
-Created with 💔 by [Saurav](https://x.com/sauravv_x)
+Created with  by [Saurav](https://x.com/sauravv_x)
 
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/saurav-shakya/valentine-web-/issues).
